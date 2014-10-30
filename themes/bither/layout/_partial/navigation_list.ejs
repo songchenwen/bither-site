@@ -1,0 +1,20 @@
+<ul>
+    <%
+        var navs = config.navs;
+        var arr = [];
+
+        for(var nav in navs){
+            var className = 'menu-item';
+            var url_post_fix = 'index.html';
+            var current_url = url_for(page.path);
+            if(current_url.indexOf(url_post_fix) == current_url.length - url_post_fix.length){
+                current_url = current_url.replace(url_post_fix, '');
+            }
+            if(url_for(navs[nav]) == current_url){
+                className += ' current-menu-item';
+            }
+            arr.push('<li class="' + className +'"><a href="' + url_for(navs[nav]) + '" >' + nav + '</a></li>');
+        }
+    %>
+    <%- arr.join('')%>
+</ul>

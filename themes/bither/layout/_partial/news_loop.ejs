@@ -1,0 +1,24 @@
+<div id="content">
+<% loop_posts.forEach(function(news){ %>
+<% 
+if(news.categories && news.categories.length && news.categories.first().name != 'News'){
+    return;
+}
+%>
+<div class="news">
+	<div class="date">
+        <span class="month"><%- news.date.format('MMM D') %></span>
+        <span class="year"><%- news.date.format('YYYY') %><span>
+    </div>
+	<div class="news-content">
+        <h2><a href="<%- url_for(news.path) %>" title="<%= news.title %>"><%= news.title %></a></h2>
+        <% if( news.excerpt ) { %>
+            <%- news.excerpt %>
+        <% }else{ %>
+            <%- news.content %>
+        <% } %>
+    </div>
+    <div class='clear' ></div>
+</div>
+<% }); %>
+</div>

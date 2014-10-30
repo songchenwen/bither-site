@@ -1,0 +1,16 @@
+<div id="intro-container">
+    <% var i = 0; %>
+    <% page.posts.forEach(function(post){ %>
+        <div class="intro-slide" style="top:<%= i %>00%">
+            <%- post.content %>
+        </div>
+    <% i++;}); %>
+</div>
+<ul id='intro-nav-container'>
+    <% i = 0; %>
+    <% page.posts.forEach(function(post){ %>
+        <li <%- i == 0 ? 'class="current"': '' %>>
+            <b><%- post.title %></b>
+        </li>
+    <% i++;}); %>
+</ul>
