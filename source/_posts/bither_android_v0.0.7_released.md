@@ -10,4 +10,4 @@ Bither android v0.0.7 released.
 
 * Asset Report.
 
-![](/bither-site/images/news/bither-android-release-0.0.7.png)
+![](/images/news/bither-android-release-0.0.7.png)

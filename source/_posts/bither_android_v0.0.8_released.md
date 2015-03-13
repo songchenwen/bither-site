@@ -11,4 +11,4 @@ Bither Android v0.0.8 released on Google Play.
 * Secured Keyboard.
 * Advanced options for private key management.
 
-![](/bither-site/images/news/bither-android-release-0.0.8.jpeg)
+![](/images/news/bither-android-release-0.0.8.jpeg)

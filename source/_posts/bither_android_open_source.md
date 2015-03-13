@@ -10,4 +10,4 @@ We submit Bither android source code to Github.
 
 You can see it [here](https://github.com/bither/bither-android).
 
-![](/bither-site/images/news/bither-android-open-source.png)
+![](/images/news/bither-android-open-source.png)

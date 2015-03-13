@@ -8,4 +8,4 @@ Bither iOS v1.0.0 released on App Store.
 
 <!-- more -->
 
-![](/bither-site/images/news/bither-ios-release-1.0.0.jpeg)
+![](/images/news/bither-ios-release-1.0.0.jpeg)

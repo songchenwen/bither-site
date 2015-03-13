@@ -10,4 +10,4 @@ Bither android v0.0.5 released.
 * New Exchange UI.
 * Low Transaction Fee.
 
-![](/bither-site/images/news/bither-android-release-0.0.5.png)
+![](/images/news/bither-android-release-0.0.5.png)

@@ -9,4 +9,4 @@ Bither android v0.0.6 released.
 
 * Fancy QR Code.
 
-![](/bither-site/images/news/bither-android-release-0.0.6.jpeg)
+![](/images/news/bither-android-release-0.0.6.jpeg)

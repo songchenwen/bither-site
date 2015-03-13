@@ -11,7 +11,7 @@ We submit Bither iOS and Bitheri source code to Github.
 * [Bither iOS]
 * [Bitheri]
 
-![](/bither-site/images/news/bither-ios-open-source.jpeg)
+![](/images/news/bither-ios-open-source.jpeg)
 
 [Bither iOS]: https://github.com/bither/bither-ios
 [Bitheri]: https://github.com/bither/bitheri
